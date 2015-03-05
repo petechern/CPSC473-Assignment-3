@@ -1,0 +1,170 @@
+body {
+  background: #f9e933;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  overflow: auto;
+  border-bottom: 2px solid lightgray;
+
+}
+
+header .h1 {
+  font-family: 'Ubuntu' , sans-serif;
+  float: left;
+  width: 570px;
+  color: #ff0000;
+  font-size: 300%;
+  padding: 40px 0px;
+}
+main .h2{
+ font-family: 'Ubuntu' , sans-serif;
+ float: left; 
+ width: 570px;
+ font-size: 200%;
+ padding-top: 20px;
+ padding-bottom: 10px
+}
+
+main .h3{
+ font-family: 'Ubuntu' , sans-serif;
+ float: left; 
+ width: 570px;
+ font-size: 150%;
+ padding-top: 30px;
+ padding-bottom: 10px;
+}
+
+
+header nav {
+  font-family: 'Droid Sans', sans-serif;
+  float: right;
+  width: 285px;
+  color: #CC0000;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+main {
+  background: white;
+  overflow: auto;
+  padding: 40px;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+main .right {
+  font-family: 'Droid Sans', sans-serif;
+  float: right;
+  width: 285px;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active {
+	background: #eee;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+
+main .content p {
+    background: yellow;
+}
+
+main .content input {
+    font-size: 1.5em;
+}
+
+main ul{
+  padding-bottom: 40px;
+}
+
+.content {
+  background-color: #eee;  
+}
+
+footer .left {
+  font-family: 'Droid Sans', sans-serif;
+  float: left;
+  width: 570px;
+}
+
+footer .site,.cont
+{
+  font-family: 'Ubuntu' , sans-serif;
+  font-size: 150%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+footer .sitemap {
+  font-family: 'Droid Sans', sans-serif;
+  float: right;
+  width: 285px;
+}
+
+/*change teh color ot eh amazeriffic text in footer red*/
+footer .amaze{
+  color:#CC0000; 
+}
+footer p{
+    height:5px;
+    margin:0 15px 15px 0;
+
+}
+/*divide the sitemap into 2 columns*/
+footer li{
+    float:left;
+    height:5px;
+    margin:0 15px 15px 0;
+    width:100px;
+}
+/*change the link color to red*/
+a {
+  color: #CC0000;
+  text-decoration: none;
+}
+
+
